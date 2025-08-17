@@ -1,7 +1,7 @@
 [versions]
 agp = "8.8.0"
+glideVersion = "1.0.0-beta01"
 converterGson = "2.9.0"
-glide = "4.16.0"
 hiltVersion = "2.51.1"
 kotlin = "2.0.0"
 coreKtx = "1.16.0"
@@ -18,6 +18,7 @@ okhttp = "4.12.0"
 retrofit = "2.9.0"
 roomVersion = "2.7.2"
 kspVersion = "2.0.0-1.0.21"
+androidxHiltNavigationCompose = "1.2.0"
 
 
 [libraries]
@@ -27,8 +28,9 @@ androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-view
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomVersion" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomVersion" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomVersion" }
+glide-compose = { module = "com.github.bumptech.glide:compose", version.ref = "glideVersion" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "androidxHiltNavigationCompose" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
-glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltVersion" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }

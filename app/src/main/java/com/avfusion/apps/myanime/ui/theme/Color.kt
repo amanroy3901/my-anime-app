@@ -14,3 +14,5 @@ val DarkOnPrimary = Color(0xFF000000)
 val DarkBackground = Color(0xFF121212)
 val DarkSurface = Color(0xFF1F1F1F)
 val DarkOnSurface = Color(0xFFFFFFFF)
+
+val GoldenColor =  Color(0xFFFFC107)

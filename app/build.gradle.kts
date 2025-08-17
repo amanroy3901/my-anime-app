@@ -72,10 +72,17 @@ dependencies {
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
 
-    implementation(libs.glide)
     ksp(libs.ksp)
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
+    implementation(libs.glide.compose)
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.3")
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.2")
+
+
+    implementation(libs.androidx.hilt.navigation.compose)
+
 
 }

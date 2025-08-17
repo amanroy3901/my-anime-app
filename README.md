@@ -4,6 +4,11 @@ A simple, local-first Android application that fetches and displays a list of to
 
 ---
 
+Demo & Download
+<video src="https://raw.githubusercontent.com/amanroy3901/my-anime-app/main/release/demo_video.mp4" controls loop muted width="100%"></video>
+
+Download the APK: MyAnime.apk
+
 ## Features Implemented
 
 This project fulfills all the core requirements and bonus features outlined in the assignment:

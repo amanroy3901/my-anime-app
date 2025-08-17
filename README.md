@@ -4,10 +4,12 @@ A simple, local-first Android application that fetches and displays a list of to
 
 ---
 
-Demo & Download
-<video src="https://raw.githubusercontent.com/amanroy3901/my-anime-app/main/release/demo_video.mp4" controls loop muted width="100%"></video>
+## Demo video and Apk
 
-Download the APK: MyAnime.apk
+video - https://github.com/amanroy3901/my-anime-app/blob/main/release/demo_video.mp4 
+
+apik - https://github.com/amanroy3901/my-anime-app/blob/main/release/MyAnime.apk
+
 
 ## Features Implemented
 
@@ -35,7 +37,7 @@ This project fulfills all the core requirements and bonus features outlined in t
 
 ---
 
-## Core Libraries
+### Core Libraries
 
 | Library                | Purpose                                                                 |
 |------------------------|-------------------------------------------------------------------------|
@@ -45,6 +47,7 @@ This project fulfills all the core requirements and bonus features outlined in t
 | Room                   | Persistence library that provides an abstraction layer over SQLite.    |
 | Glide (via ExperimentalGlideComposeApi) | Efficient image loading library for displaying images. Note: Glide support in Compose is still in beta, and while there are more stable third-party alternatives, the official library was chosen for professional alignment and requirement compliance. |
 | Kotlin Coroutines & Flows | For asynchronous and reactive data handling.                        |
+| Youtube video playback | used 3rd part lib com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.2 |
 
 ---
 
